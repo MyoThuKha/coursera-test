@@ -1,65 +1,48 @@
 	h1{background-color: aqua;
-		text-align: center;}
-	.row{width: 100%;
-		 	}
-		*{box-sizing: border-box;
-			}
-		section{	border: 1px solid black;
-			width: 90%;
-			height: 200px;
-			padding: 5px;
-			margin: 10px;
-			left: 150px;
-		background-color: pink;}
-	@media(min-width : 992px){
-	.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4
-	{	float: left;
+		text-align: center;
+		font-size: 175%;}
+	h2{position: relative;
+		float: right;
 		border: 1px solid black;
+		width: 120px;
+		font-size: 125%;}
+		h2.first{background-color: green;}
+		h2.second{background-color: yellow;}
+		h2.third{background-color: red;}
+		.row{width: 100%;}
+		*{box-sizing: border-box;}
+		body{font-family: arial, san-serif ,Helvetica;}
+		p{clear:both;
+			}
+	@media(min-width : 992px){
+	.col-lg-1	{	float: left;
+		border: 1px solid black;
+		padding:5px;
 		margin: 10px;
-		background-color: pink;}
+		background-color: pink;
+		}
 
-		.col-lg-1 {
-			width: 8.33%;
-		}
-		.col-lg-2{
-			width: 16.66%;
-		}
-		.col-lg-3{
-			width: 25%;
-		}
-		.col-lg-4{
-			width: 33%;
-		}
+		.col-lg-1{width: 30%}
 }
 @media (min-width : 768px) and (max-width: 991px) {
-	.col-md-1, .col-md-2, .col-md-3,.col-md-4,.col-md-5,.col-md-12
-	{float: left;
+	.col-md-1, .col-md-2{float: left;
 		border: 1px solid black;
+		padding:5px;
 		margin: 5px;
 		background-color: pink;}
 		.col-md-1 {
-			width: 8.33%;
+			width: 48.50%;
 		}
 		.col-md-2{
-			width: 16.66%;
+			width: 100%;
 		}
-		.col-md-3{
-			width: 25%;
-		}
-		.col-md-4{
-			width: 33%;
-		}
-		.col-md-5{
-			width: 41.66%;
-		}
-		.col-md-12{
-			width:100%;}
 }
 @media (min-width : 0px) and (max-width: 767px) {
-	.col-sm-12
+	.col-sm-1
 	{float: left;
 		border: 1px solid black;
+		padding:5px;
 		margin: 5px;
 		background-color: pink;}
-		.col-sm-12{width: 100%}
+		.col-sm-1{width: 100%}
 }
