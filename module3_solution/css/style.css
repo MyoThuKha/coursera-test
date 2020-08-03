@@ -33,11 +33,12 @@ body{
 .navbar-header button.navbar-toggle{clear: both;
 	margin-top: -30px;}
 
+#main-content h2{font-weight: bold;}
+
 #main-content .chicken{border: 1px solid #000000;
 		padding: 5px;
 		background-color: #818181;
 		margin-right: -20px;
 		margin-left: -20px;}
-#main-content h2{font-weight: bold;}
 
 .chicken h3{font-weight: bold;}
