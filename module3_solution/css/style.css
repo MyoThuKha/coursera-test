@@ -3,12 +3,13 @@ body{
 	font-family: arial, san-serif ,Helvetica;
 }
 /**Header**/
-#header-nav{background-color: #3f0c1f;
+#header-nav{background-color: #818181;
 	border-radius: 0;
 	border: 0;
 }
 	
 	.navbar-brand h1{
+		color: #000000;
 		margin-top: 0;
 		margin-bottom: 0;
 		font-size: 1.8em;
