@@ -1,6 +1,5 @@
 body{
 	font-size: 16px;
-	font-family: arial, san-serif ,Helvetica;
 }
 /**Header**/
 #header-nav{background-color: #818181;
@@ -14,7 +13,9 @@ body{
 		margin-bottom: 0;
 		font-size: 1.8em;
 
-	}
+		}
+
+	#main-content h2{font-weight: bold;}
 
 	.navbar-brand  a:hover, .navbar-brand a:focus{
 		text-decoration: none;}
@@ -27,35 +28,17 @@ body{
 #nav-list a:hover{background: #e7e7e7;}
 
 .navbar-header button.navbar-toggle, .nav-header .icon-bar {
-	border: 1px solid #61122f;
+	background-color: aqua;
+	border: 1px solid #000000;
 }
 
 .navbar-header button.navbar-toggle{clear: both;
 	margin-top: -30px;}
 
- .chicken{border: 1px solid #000000;
+#main-content .chicken{border: 1px solid #000000;
 		padding: 5px;
 		background-color: #818181;
-		margin-right: -10px;
-		margin-left: -10px;}
-
-.chicken h3{font-weight: bold;}
-
-/*for desktop*/
-@media(min-width: 992px){
-	.chicken{margin-right: -20px;
+		margin-right: -20px;
 		margin-left: -20px;}
 
-}
-
-/*for tablet*/
-@media(min-width: 768px) and (max-width: 991px){
-
-}
-
-/*for mobile*/
-@media (max-width: 767px){
-	.chicken{margin-right: 15px;
-	margin-left: 15px;}
-
-}
+.chicken h3{font-weight: bold;}
