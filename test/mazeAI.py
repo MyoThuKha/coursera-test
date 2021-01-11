@@ -1,3 +1,4 @@
+#This is the AI code for maze and This one is not created by me.
 import sys
 
 class Node():
